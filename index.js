@@ -1,5 +1,5 @@
-import Carousel from "6-module/3-task/index.js";
-import slides from "6-module/3-task/slides.js";
+import Carousel from "6-module/index.js";
+import slides from "6-module/slides.js";
 
 import RibbonMenu from "7-module/1-task/index.js";
 import categories from "7-module/1-task/categories.js";
