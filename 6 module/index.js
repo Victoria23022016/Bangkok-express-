@@ -77,7 +77,7 @@ export default class Carousel {
 
 function createSlides(key) {
   let slide = createElement(`<div class="carousel__slide" data-id="${key.id}">
-  <img src="./../assets/images/carousel/${key.image}" class="carousel__img" alt="slide">
+  <img src="../assets/images/carousel/${key.image}" class="carousel__img" alt="slide">
   <div class="carousel__caption">
     <span class="carousel__price">€${key.price}</span>
     <div class="carousel__title">${key.name}</div>
