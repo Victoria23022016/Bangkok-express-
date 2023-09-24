@@ -20,7 +20,7 @@ export default class ProductCard {
     this.btn.addEventListener("click", this.onClick);
     this.elem.addEventListener(
       "product-add",
-      (event) => console.log("событие!") //не забыть убрать
+      (event) 
     );
   }
   onClick = (event) => {
