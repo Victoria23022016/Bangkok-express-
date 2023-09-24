@@ -24,8 +24,7 @@ export default class Carousel {
       btn.addEventListener("click", this.onClick);
     }
 
-    this.elem.addEventListener("product-add", (event) =>
-      console.log(event.detail)
+    this.elem.addEventListener("product-add", (event)
     );
     this.initCarousel();
   }
