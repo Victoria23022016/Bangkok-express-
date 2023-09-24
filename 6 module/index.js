@@ -51,14 +51,14 @@ export default class Carousel {
       arrowRigth.style.display = counter == finalslide ? "none" : "flex";
       arrowLeft.style.display = "flex";
 
-      console.log(`счетчик : ${counter}`);
+      
       slides.style.transform = `translateX(-${moving(counter, slideWidth)}px)`;
     });
 
     arrowLeft.addEventListener("click", function (event) {
       let slideWidth = oneslide.offsetWidth;
       counter--;
-      console.log(`счетчик : ${counter}`);
+      
       arrowRigth.style.display = "flex";
       slides.style.transform = `translateX(-${moving(counter, slideWidth)}px)`;
       if (counter === 0) {
